@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Mascots & Bandnames</title>
+
+    <meta charset="utf-8" />
+
+    <script src="P5_01_javascriptfile.js"></script>
+  </head>
+  <body>
+    <h1>Quote Generator</h1>
+    <div id="container">
+      <div id="quoteContainer">
+        <!--  quote  -->
+
+        <h2 id="quote">Incoming!</h2>
+      </div>
+
+      <!--  buttons -->
+
+      <div id="buttons">
+        <button
+          onclick="summon(beginning, middle, end, beginningLength, middleLength, endLength)"
+        >
+          Create A Mascot Please
+        </button>
+
+        <button
+          onclick="summon(beginningBand, middleBand, endBand, beginningBandLength, middleBandLength, endBandLength)"
+        >
+          Suggest Band Name Please
+        </button>
+      </div>
+
+      <label for="quantity">Choose how many you would like: </label>
+
+      <select id="quantity">
+        <option value="1"> one</option>
+        <option value="2"> two</option>
+        <option value="3"> three</option>
+        <option value="4"> four</option>
+        <option value="5"> five</option>
+      </select>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+  background-color: #a0ffea;
+}
+
+div#container {
+  text-align: center;
+  margin: 20px 100px;
+}
+
+h1, label {
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+div#quoteContainer {
+  border-style: double;
+  overflow: hidden;
+  margin: 5px;
+}
+
+hr {
+  width: 65%;
+  box-shadow: 0 0 10px 1px rgb(120, 3, 238);
+  border: 0;
+}
+
+div#buttons {
+  margin: 10px;
+}
+
+h2 {
+  color: #05386b;
+  font-family: "Gotu", sans-serif;
+  margin: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+/* END OF CSS */
